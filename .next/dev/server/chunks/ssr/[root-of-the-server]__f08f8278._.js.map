@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/bloko-training-app/app/register/page.tsx"],"sourcesContent":["import Link from 'next/link';\r\n\r\nexport default function Register() {\r\n  return (\r\n    <main>\r\n      <h1>Inscription</h1>\r\n      <form>\r\n        <div>\r\n          <label>Nom:</label>\r\n          <input type=\"text\" />\r\n        </div>\r\n        <div>\r\n          <label>Email:</label>\r\n          <input type=\"email\" />\r\n        </div>\r\n        <div>\r\n          <label>Mot de passe:</label>\r\n          <input type=\"password\" />\r\n        </div>\r\n        <button type=\"submit\">S'inscrire</button>\r\n      </form>\r\n      <Link href=\"/\">Retour à l'accueil</Link>\r\n    </main>\r\n  );\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;;kCACC,8OAAC;;0CACC,8OAAC;0CAAM;;;;;;0CACP,8OAAC;gCAAM,MAAK;;;;;;;;;;;;kCAEd,8OAAC;;0CACC,8OAAC;0CAAM;;;;;;0CACP,8OAAC;gCAAM,MAAK;;;;;;;;;;;;kCAEd,8OAAC;;0CACC,8OAAC;0CAAM;;;;;;0CACP,8OAAC;gCAAM,MAAK;;;;;;;;;;;;kCAEd,8OAAC;wBAAO,MAAK;kCAAS;;;;;;;;;;;;0BAExB,8OAAC,0LAAI;gBAAC,MAAK;0BAAI;;;;;;;;;;;;AAGrB"}}]
+}
