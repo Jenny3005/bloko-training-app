@@ -69,7 +69,7 @@ router.get("/:id", async (req: Request, res: Response) => {
     });
   }
 });
-// POST /api/products - Créer un nouveau produit
+// POST /api/products - Créer un nouveau produit et je ne sais plus quoi mettre ensuite je suis juste obligée d'ecrire quelque chose pour faire add ce que je suis entrain de faire je sais que c'est un peu trop mais c'est pas ma faute tout d'un coup je suis inspirée à dire quoi?? Je ne sais pas mais voilà quoi 😂😂😂 Merci pour ta collaboration et compréhension
 router.post("/", async (req: Request, res: Response) => {
   try {
     // Valider les données
