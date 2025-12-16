@@ -69,6 +69,33 @@ router.get("/:id", async (req: Request, res: Response) => {
     });
   }
 });
+
+// GET /api/products/user/:userId - Produits d'un utilisateur
+router.get('/user/:userId', async (req: Request, res: Response) => {
+try {
+const { userId } = req.params;
+const products = await prisma.product.findMany({
+where: {
+userId,
+},
+orderBy: {
+createdAt: 'desc',
+},
+});
+res.json({
+success: true,
+data: products,
+count: products.length,
+});
+} catch (error) {
+console.error('Error fetching user products:', error);
+res.status(500).json({
+success: false,
+error: 'Failed to fetch user products',
+});
+}
+});
+
 // POST /api/products - Créer un nouveau produit
 router.post("/", async (req: Request, res: Response) => {
   try {
