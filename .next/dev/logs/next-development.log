@@ -1,0 +1,19 @@
+[00:00:15.969] Server  LOG      ✓ Ready in 11.5s
+[00:00:25.222] Server  LOG      ○ Compiling / ...
+[00:00:37.158] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:12.205] Server  LOG      ○ Compiling /register ...
+[00:02:57.778] Browser LOG     Registration attempt: {"confirmPassword":"123456789","email":"jennyhoundon@gmail.com","firstName":"HOUNDONOUGBO","lastName":"Jenny","password":"123456789"}
+[00:02:59.268] Browser LOG     Registration success!
+[00:04:57.015] Browser LOG     Login attempt: {"email":"jennyhoundon@gmail.com","password":"123456789"}
+[00:05:06.505] Browser LOG     Login attempt: {"email":"jennyhoundon@gmail.com","password":"123456789"}
+[00:07:40.312] Server  LOG        Reload env: .env
+[00:11:38.391] Server  LOG        Reload env: .env
+[00:13:11.783] Server  LOG        Reload env: .env
+[00:16:53.106] Server  LOG        Reload env: .env
+[00:28:24.671] Server  LOG        Reload env: .env
+[00:29:15.153] Server  LOG      ○ Compiling /dashboard ...
+[00:29:42.330] Server  LOG      ○ Compiling /dashboard/products ...
+[00:31:47.724] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:22.139] Browser LOG     Registration attempt: {"confirmPassword":"123456789","email":"jennyhoundon@gmail.com","firstName":"HOUNDONOUGBO","lastName":"Jenny","password":"123456789"}
+[00:32:23.540] Browser LOG     Registration success!
+[00:32:42.997] Browser LOG     Login attempt: {"email":"jennyhoundon@gmail.com","password":"123456789"}

@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { loggerMiddleware } from "./middlewares/logger";
 import { errorHandler } from "./middlewares/errorHandler";
+import path from "path";
 import { prisma } from "./lib/prisma";
 import path from "path";
 
