@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { loggerMiddleware } from "./middlewares/logger";
 import { errorHandler } from "./middlewares/errorHandler";
+import path from "path";
 import { prisma } from "./lib/prisma";
 
 import productRoutes from "./routes/products";
@@ -20,7 +21,7 @@ app.use(loggerMiddleware);
 
 // Route de test
 app.get("/", (req: Request, res: Response) => {
-  res.json({ message: "Server is running!" });
+  res.sendFile(path.join(__dirname, "../app/page.tsx"));
 });
 app.use("/api/stats", statsRoutes);
 // Routes API
