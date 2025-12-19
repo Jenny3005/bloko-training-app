@@ -1,11 +1,12 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
+import registerRoutes from '@/src/routes/register';
 import dotenv from "dotenv";
 import { loggerMiddleware } from "./middlewares/logger";
 import { errorHandler } from "./middlewares/errorHandler";
 import path from "path";
 import { prisma } from "./lib/prisma";
-import path from "path";
+
 
 import productRoutes from "./routes/products";
 import statsRoutes from "./routes/stats";
@@ -27,6 +28,7 @@ app.get("/", (req: Request, res: Response) => {
 app.use("/api/stats", statsRoutes);
 // Routes API
 app.use("/api/products", productRoutes);
+app.use('/api', registerRoutes);
 
 // Test de connexion à la base de données
 app.get("/api/test-db", async (req, res) => {

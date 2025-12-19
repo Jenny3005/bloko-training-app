@@ -1,19 +1,41 @@
-[00:00:15.969] Server  LOG      ✓ Ready in 11.5s
-[00:00:25.222] Server  LOG      ○ Compiling / ...
-[00:00:37.158] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:12.205] Server  LOG      ○ Compiling /register ...
-[00:02:57.778] Browser LOG     Registration attempt: {"confirmPassword":"123456789","email":"jennyhoundon@gmail.com","firstName":"HOUNDONOUGBO","lastName":"Jenny","password":"123456789"}
-[00:02:59.268] Browser LOG     Registration success!
-[00:04:57.015] Browser LOG     Login attempt: {"email":"jennyhoundon@gmail.com","password":"123456789"}
-[00:05:06.505] Browser LOG     Login attempt: {"email":"jennyhoundon@gmail.com","password":"123456789"}
-[00:07:40.312] Server  LOG        Reload env: .env
-[00:11:38.391] Server  LOG        Reload env: .env
-[00:13:11.783] Server  LOG        Reload env: .env
-[00:16:53.106] Server  LOG        Reload env: .env
-[00:28:24.671] Server  LOG        Reload env: .env
-[00:29:15.153] Server  LOG      ○ Compiling /dashboard ...
-[00:29:42.330] Server  LOG      ○ Compiling /dashboard/products ...
-[00:31:47.724] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:22.139] Browser LOG     Registration attempt: {"confirmPassword":"123456789","email":"jennyhoundon@gmail.com","firstName":"HOUNDONOUGBO","lastName":"Jenny","password":"123456789"}
-[00:32:23.540] Browser LOG     Registration success!
-[00:32:42.997] Browser LOG     Login attempt: {"email":"jennyhoundon@gmail.com","password":"123456789"}
+[00:00:02.050] Server  WARN     ⚠ Duplicate page detected. app\page.js and app\page.tsx resolve to /
+[00:00:02.051] Server  WARN     ⚠ Duplicate page detected. app\dashboard\page.js and app\dashboard\page.tsx resolve to /dashboard
+[00:00:02.051] Server  WARN     ⚠ Duplicate page detected. app\login\page.js and app\login\page.tsx resolve to /login
+[00:00:02.052] Server  WARN     ⚠ Duplicate page detected. app\register\page.js and app\register\page.tsx resolve to /register
+[00:00:02.052] Server  WARN     ⚠ Duplicate page detected. app\dashboard\products\page.js and app\dashboard\products\page.tsx resolve to /dashboard/products
+[00:00:02.053] Server  WARN     ⚠ Duplicate page detected. app\dashboard\products\new\page.js and app\dashboard\products\new\page.tsx resolve to /dashboard/products/new
+[00:00:02.053] Server  WARN     ⚠ Duplicate page detected. app\dashboard\products\[id]\page.js and app\dashboard\products\[id]\page.tsx resolve to /dashboard/products/[id]
+[00:00:02.053] Server  WARN     ⚠ Duplicate page detected. app\page.js and app\page.tsx resolve to /
+[00:00:02.054] Server  WARN     ⚠ Duplicate page detected. app\dashboard\page.js and app\dashboard\page.tsx resolve to /dashboard
+[00:00:02.054] Server  WARN     ⚠ Duplicate page detected. app\login\page.js and app\login\page.tsx resolve to /login
+[00:00:02.054] Server  WARN     ⚠ Duplicate page detected. app\register\page.js and app\register\page.tsx resolve to /register
+[00:00:02.055] Server  WARN     ⚠ Duplicate page detected. app\dashboard\products\page.js and app\dashboard\products\page.tsx resolve to /dashboard/products
+[00:00:02.055] Server  WARN     ⚠ Duplicate page detected. app\dashboard\products\new\page.js and app\dashboard\products\new\page.tsx resolve to /dashboard/products/new
+[00:00:02.055] Server  WARN     ⚠ Duplicate page detected. app\dashboard\products\[id]\page.js and app\dashboard\products\[id]\page.tsx resolve to /dashboard/products/[id]
+[00:00:02.056] Server  LOG      ✓ Ready in 1380ms
+[00:01:36.846] Server  LOG      ○ Compiling / ...
+[00:01:38.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:33.870] Browser ERROR   Erreur réseau: {}
+[00:07:47.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:28.739] Browser ERROR   Erreur réseau: {}
+[00:08:52.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:19.028] Browser ERROR   Erreur réseau: {}
+[00:56:13.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:23.560] Browser ERROR   Erreur réseau: {}
+[01:05:14.140] Server  LOG      ✓ Compiled in 428ms
+[01:05:21.077] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:51.108] Server  LOG      ✓ Compiled in 428ms
+[01:17:10.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:20:25.720] Server  LOG        Reload env: .env.local
+[01:20:28.873] Server  LOG        Reload env: .env.local
+[01:23:19.248] Server  LOG        Reload env: .env
+[01:23:34.437] Server  LOG        Reload env: .env
+[01:23:47.349] Server  LOG        Reload env: .env.local
+[01:30:00.417] Server  LOG        Reload env: .env.local
+[01:30:03.841] Server  LOG        Reload env: .env.local
+[01:30:13.594] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:40.926] Browser ERROR   Erreur réseau: {}
+[01:31:03.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:02.977] Server  LOG        Reload env: .env
+[01:40:05.995] Server  LOG        Reload env: .env
+[01:41:49.227] Server  LOG        Reload env: .env

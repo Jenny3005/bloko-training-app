@@ -4,20 +4,20 @@ globalThis.__BUILD_MANIFEST = {
   },
   "devFiles": [],
   "polyfillFiles": [
-    "static/chunks/1ded4_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/00aaa_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_1e3199b7._.js",
-    "static/chunks/1ded4_next_dist_compiled_react-dom_eb185b01._.js",
-    "static/chunks/1ded4_next_dist_compiled_react-server-dom-turbopack_8b1eb92e._.js",
-    "static/chunks/1ded4_next_dist_compiled_next-devtools_index_70657e5c.js",
-    "static/chunks/1ded4_next_dist_compiled_bbb02d3a._.js",
-    "static/chunks/1ded4_next_dist_client_e5b54eb2._.js",
-    "static/chunks/1ded4_next_dist_015e5bef._.js",
-    "static/chunks/1ded4_@swc_helpers_cjs_a545badc._.js",
-    "static/chunks/Documents_bloko-training-app_a0ff3932._.js",
-    "static/chunks/turbopack-Documents_bloko-training-app_9b6ab5ae._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_5ba6163c._.js",
+    "static/chunks/00aaa_next_dist_compiled_react-dom_5a3667ac._.js",
+    "static/chunks/00aaa_next_dist_compiled_react-server-dom-turbopack_dd032240._.js",
+    "static/chunks/00aaa_next_dist_compiled_next-devtools_index_d7688a18.js",
+    "static/chunks/00aaa_next_dist_compiled_6d38b383._.js",
+    "static/chunks/00aaa_next_dist_client_7673f6f7._.js",
+    "static/chunks/00aaa_next_dist_fb8d1d5b._.js",
+    "static/chunks/00aaa_@swc_helpers_cjs_ba0fbda8._.js",
+    "static/chunks/server_a0ff3932._.js",
+    "static/chunks/turbopack-server_4bca3804._.js"
   ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
